@@ -1,0 +1,86 @@
+/* general */
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: blueviolet;
+    
+}
+
+/* header */
+.container {
+    width: 55%;
+    background-color: #fff;
+    margin: 48px auto;
+    padding : 20px;
+}
+
+.logo {
+    width: 100px;
+    vertical-align: middle;
+
+}
+
+.container h1 {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+/* main */
+
+.ricerca{
+    border-top: 2px solid blueviolet;
+    border-bottom: 2px solid blueviolet;
+}
+
+.ricerca input  {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.notifiche {
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    background-color: blueviolet;
+    border-radius: 50%;    
+    text-align: center;
+    line-height: 35px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+/* email section */
+
+
+.email input {
+    margin-left: 10px;
+}
+.email div {
+    height : 40 px;
+    line-height: 40px;
+    background-color: lightslategray;
+}
+
+.item1 {
+    margin-top: 20px;
+}
+
+.item5{
+    margin-bottom: 20px
+}
+#white{
+    background-color: #fff;
+}
+
+/* final section */
+.final {
+    border-top: 2px solid blueviolet;
+    height: 100px;
+    text-align: center;
+    font-size: 10px;
+}
